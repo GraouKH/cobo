@@ -1,0 +1,36 @@
+Cobo game:
+
+Cobo is a card game. Each player is dealt 4 cards in a square.
+Each player look 2 of the 4 cards.
+
+13 different cards, 1 to 13 (jack, queen, king 11 to 13) + 1 0 card (1 eyed king)
+
+If a player has less than 5 points (sum of their cards), they can CABO.
+A last round is played. The player with the fewest points win.
+
+If a player has no card left -> Auto-CABO.
+
+
+Round:
+
+A player can take a card either in the draw or discard pile.
+They can swap it from a card of their hand (without looking at it)
+or discard it directly in the discard card (potential special effect).
+
+7 - 8: know your fate
+9 - 10: know a friend
+Jack - Queen: Switch between
+
+
+Whenever a card on the discard pile matches any of the cards on table, any player can tap te discard pile. The first player to do so has to discard at least 1 matching card. However the card can come from any player's cards. Whenever a player discards a card from another player, they can place one of their own cards where the discarded card was. When a player tries to discard a non-matching card, they has to put it back, and draw a blind card and add it to their own cards.
+
+
+
+
+TODO
+
+Make a cli solo version
+
+display the state of the game: discard pile, and number of cards of each player
+at your turn, choseo to discard or swap with one of your card
+
